@@ -1,0 +1,14 @@
+<suite name="TestSuiteA-HR Management">
+    <test name = "ValidateUser Test">
+        <classes>
+            <class name="unicodeTech.TestSuiteA.ValidateUser"></class>
+        </classes>
+    </test>
+    
+    <test name = "BestsellerLinks Test">
+        <classes>
+            <class name="unicodeTech.TestSuiteA.BestsellerLinks"></class>
+        </classes>
+    </test>
+    
+</suite>

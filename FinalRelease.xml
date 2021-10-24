@@ -1,0 +1,7 @@
+<suite name="GadgetsGallery-03102021">
+<suite-files>
+<suite-file path="./src/unicodeTech/TestRunner/TestSuiteA.xml"></suite-file>
+<suite-file path="./src/unicodeTech/TestRunner/TestSuiteB.xml"></suite-file>
+</suite-files>
+
+</suite>

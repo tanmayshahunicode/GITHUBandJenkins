@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">3 suites, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestSuiteB-Payroll_Management">
+              <span class="suite-name border-passed">TestSuiteB-Payroll Management</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestSuiteB-Payroll_Management">
+                    <span>D:\Batches\Baroda\01102021\UAAFramework\UAAFramework01102021\src\unicodeTech\TestRunner\TestSuiteB.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestSuiteB-Payroll_Management">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestSuiteB-Payroll_Management">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestSuiteB-Payroll_Management">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestSuiteB-Payroll_Management">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestSuiteB-Payroll_Management">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestSuiteB-Payroll_Management">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestSuiteB-Payroll_Management" class="hide-methods passed suite-TestSuiteB-Payroll_Management"> (hide)</a> <!-- hide-methods passed suite-TestSuiteB-Payroll_Management -->
+                      <a href="#" panel-name="suite-TestSuiteB-Payroll_Management" class="show-methods passed suite-TestSuiteB-Payroll_Management"> (show)</a> <!-- show-methods passed suite-TestSuiteB-Payroll_Management -->
+                    </span>
+                    <div class="method-list-content passed suite-TestSuiteB-Payroll_Management">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuiteB-Payroll_Management" title="unicodeTech.TestSuiteB.NewProductLinks" hash-for-method="testNewProductLinks">testNewProductLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuiteB-Payroll_Management" title="unicodeTech.TestSuiteB.SearchProduct" hash-for-method="testSearchProduct(Samsung)">testSearchProduct(Samsung)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuiteB-Payroll_Management" title="unicodeTech.TestSuiteB.SearchProduct" hash-for-method="testSearchProduct(iphone)">testSearchProduct(iphone)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuiteB-Payroll_Management" title="unicodeTech.TestSuiteB.SearchProduct" hash-for-method="testSearchProduct(Smartwatches)">testSearchProduct(Smartwatches)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuiteB-Payroll_Management" title="unicodeTech.TestSuiteB.SearchProduct" hash-for-method="testSearchProduct()">testSearchProduct()</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuiteB-Payroll_Management" title="unicodeTech.TestSuiteB.SearchProduct" hash-for-method="testSearchProduct(sony)">testSearchProduct(sony)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuiteB-Payroll_Management" title="unicodeTech.TestSuiteB.SelectSpecificProduct" hash-for-method="testSelectSpecificProduct">testSelectSpecificProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestSuiteB-Payroll_Management -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestSuiteA-HR_Management">
+              <span class="suite-name border-failed">TestSuiteA-HR Management</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestSuiteA-HR_Management">
+                    <span>D:\Batches\Baroda\01102021\UAAFramework\UAAFramework01102021\src\unicodeTech\TestRunner\TestSuiteA.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestSuiteA-HR_Management">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestSuiteA-HR_Management">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestSuiteA-HR_Management">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestSuiteA-HR_Management">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestSuiteA-HR_Management">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestSuiteA-HR_Management">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 3 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestSuiteA-HR_Management" class="hide-methods failed suite-TestSuiteA-HR_Management"> (hide)</a> <!-- hide-methods failed suite-TestSuiteA-HR_Management -->
+                      <a href="#" panel-name="suite-TestSuiteA-HR_Management" class="show-methods failed suite-TestSuiteA-HR_Management"> (show)</a> <!-- show-methods failed suite-TestSuiteA-HR_Management -->
+                    </span>
+                    <div class="method-list-content failed suite-TestSuiteA-HR_Management">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuiteA-HR_Management" title="unicodeTech.TestSuiteA.ValidateUser" hash-for-method="testValidateUser(demo1@unicodetechnologies.in, )">testValidateUser(demo1@unicodetechnologies.in, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuiteA-HR_Management" title="unicodeTech.TestSuiteA.ValidateUser" hash-for-method="testValidateUser(, unicode)">testValidateUser(, unicode)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuiteA-HR_Management" title="unicodeTech.TestSuiteA.ValidateUser" hash-for-method="testValidateUser(demo@unicodetechnologies.in, unicode)">testValidateUser(demo@unicodetechnologies.in, unicode)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestSuiteA-HR_Management -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestSuiteA-HR_Management" class="hide-methods passed suite-TestSuiteA-HR_Management"> (hide)</a> <!-- hide-methods passed suite-TestSuiteA-HR_Management -->
+                      <a href="#" panel-name="suite-TestSuiteA-HR_Management" class="show-methods passed suite-TestSuiteA-HR_Management"> (show)</a> <!-- show-methods passed suite-TestSuiteA-HR_Management -->
+                    </span>
+                    <div class="method-list-content passed suite-TestSuiteA-HR_Management">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuiteA-HR_Management" title="unicodeTech.TestSuiteA.BestsellerLinks" hash-for-method="testBestsellerLinks">testBestsellerLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuiteA-HR_Management" title="unicodeTech.TestSuiteA.ValidateUser" hash-for-method="testValidateUser(demo1@unicodetechnologies.in, unicode1)">testValidateUser(demo1@unicodetechnologies.in, unicode1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuiteA-HR_Management" title="unicodeTech.TestSuiteA.ValidateUser" hash-for-method="testValidateUser(demo2@unicodetechnologies.in, unicode2)">testValidateUser(demo2@unicodetechnologies.in, unicode2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestSuiteA-HR_Management -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-GadgetsGallery-03102021" class="panel GadgetsGallery-03102021">
+        </div> <!-- panel GadgetsGallery-03102021 -->
+        <div panel-name="suite-TestSuiteB-Payroll_Management" class="panel TestSuiteB-Payroll_Management">
+          <div class="suite-TestSuiteB-Payroll_Management-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">unicodeTech.TestSuiteB.SearchProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchProduct(Samsung)">
+                  </a> <!-- testSearchProduct(Samsung) -->
+                  <span class="method-name">testSearchProduct</span>
+                  <span class="parameters">(Samsung)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchProduct(iphone)">
+                  </a> <!-- testSearchProduct(iphone) -->
+                  <span class="method-name">testSearchProduct</span>
+                  <span class="parameters">(iphone)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchProduct(Smartwatches)">
+                  </a> <!-- testSearchProduct(Smartwatches) -->
+                  <span class="method-name">testSearchProduct</span>
+                  <span class="parameters">(Smartwatches)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchProduct()">
+                  </a> <!-- testSearchProduct() -->
+                  <span class="method-name">testSearchProduct</span>
+                  <span class="parameters">()</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchProduct(sony)">
+                  </a> <!-- testSearchProduct(sony) -->
+                  <span class="method-name">testSearchProduct</span>
+                  <span class="parameters">(sony)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuiteB-Payroll_Management-class-passed -->
+          <div class="suite-TestSuiteB-Payroll_Management-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">unicodeTech.TestSuiteB.NewProductLinks</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNewProductLinks">
+                  </a> <!-- testNewProductLinks -->
+                  <span class="method-name">testNewProductLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuiteB-Payroll_Management-class-passed -->
+          <div class="suite-TestSuiteB-Payroll_Management-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">unicodeTech.TestSuiteB.SelectSpecificProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectSpecificProduct">
+                  </a> <!-- testSelectSpecificProduct -->
+                  <span class="method-name">testSelectSpecificProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuiteB-Payroll_Management-class-passed -->
+        </div> <!-- panel TestSuiteB-Payroll_Management -->
+        <div panel-name="suite-TestSuiteA-HR_Management" class="panel TestSuiteA-HR_Management">
+          <div class="suite-TestSuiteA-HR_Management-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">unicodeTech.TestSuiteA.ValidateUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateUser(demo1@unicodetechnologies.in, )">
+                  </a> <!-- testValidateUser(demo1@unicodetechnologies.in, ) -->
+                  <span class="method-name">testValidateUser</span>
+                  <span class="parameters">(demo1@unicodetechnologies.in, )</span>
+                  <div class="stack-trace">java.lang.AssertionError: Invalid username or password
+	at unicodeTech.TestSuiteA.ValidateUser.testValidateUser(ValidateUser.java:58)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateUser(, unicode)">
+                  </a> <!-- testValidateUser(, unicode) -->
+                  <span class="method-name">testValidateUser</span>
+                  <span class="parameters">(, unicode)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Invalid username or password
+	at unicodeTech.TestSuiteA.ValidateUser.testValidateUser(ValidateUser.java:58)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateUser(demo@unicodetechnologies.in, unicode)">
+                  </a> <!-- testValidateUser(demo@unicodetechnologies.in, unicode) -->
+                  <span class="method-name">testValidateUser</span>
+                  <span class="parameters">(demo@unicodetechnologies.in, unicode)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Invalid username or password
+	at unicodeTech.TestSuiteA.ValidateUser.testValidateUser(ValidateUser.java:58)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuiteA-HR_Management-class-failed -->
+          <div class="suite-TestSuiteA-HR_Management-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">unicodeTech.TestSuiteA.BestsellerLinks</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBestsellerLinks">
+                  </a> <!-- testBestsellerLinks -->
+                  <span class="method-name">testBestsellerLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuiteA-HR_Management-class-passed -->
+          <div class="suite-TestSuiteA-HR_Management-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">unicodeTech.TestSuiteA.ValidateUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateUser(demo1@unicodetechnologies.in, unicode1)">
+                  </a> <!-- testValidateUser(demo1@unicodetechnologies.in, unicode1) -->
+                  <span class="method-name">testValidateUser</span>
+                  <span class="parameters">(demo1@unicodetechnologies.in, unicode1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateUser(demo2@unicodetechnologies.in, unicode2)">
+                  </a> <!-- testValidateUser(demo2@unicodetechnologies.in, unicode2) -->
+                  <span class="method-name">testValidateUser</span>
+                  <span class="parameters">(demo2@unicodetechnologies.in, unicode2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuiteA-HR_Management-class-passed -->
+        </div> <!-- panel TestSuiteA-HR_Management -->
+        <div panel-name="test-xml-GadgetsGallery-03102021" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Batches\Baroda\01102021\UAAFramework\UAAFramework01102021\FinalRelease.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;GadgetsGallery-03102021&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./src/unicodeTech/TestRunner/TestSuiteA.xml&quot;/&gt;
+    &lt;suite-file path=&quot;./src/unicodeTech/TestRunner/TestSuiteB.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- GadgetsGallery-03102021 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-TestSuiteB-Payroll_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Batches\Baroda\01102021\UAAFramework\UAAFramework01102021\src\unicodeTech\TestRunner\TestSuiteB.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;TestSuiteB-Payroll Management&quot;&gt;
+  &lt;test name=&quot;SearchProduct Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;unicodeTech.TestSuiteB.SearchProduct&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SearchProduct Test --&gt;
+  &lt;test name=&quot;NewProductLinks Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;unicodeTech.TestSuiteB.NewProductLinks&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NewProductLinks Test --&gt;
+  &lt;test name=&quot;SelectSpecificProduct Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;unicodeTech.TestSuiteB.SelectSpecificProduct&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SelectSpecificProduct Test --&gt;
+&lt;/suite&gt; &lt;!-- TestSuiteB-Payroll Management --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-TestSuiteA-HR_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Batches\Baroda\01102021\UAAFramework\UAAFramework01102021\src\unicodeTech\TestRunner\TestSuiteA.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;TestSuiteA-HR Management&quot;&gt;
+  &lt;test name=&quot;ValidateUser Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;unicodeTech.TestSuiteA.ValidateUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ValidateUser Test --&gt;
+  &lt;test name=&quot;BestsellerLinks Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;unicodeTech.TestSuiteA.BestsellerLinks&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BestsellerLinks Test --&gt;
+&lt;/suite&gt; &lt;!-- TestSuiteA-HR Management --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-GadgetsGallery-03102021" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for GadgetsGallery-03102021</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestSuiteB-Payroll_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestSuiteB-Payroll Management</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SearchProduct Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">NewProductLinks Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SelectSpecificProduct Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestSuiteA-HR_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestSuiteA-HR Management</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ValidateUser Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BestsellerLinks Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-GadgetsGallery-03102021" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for GadgetsGallery-03102021</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestSuiteB-Payroll_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestSuiteB-Payroll Management</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestSuiteA-HR_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestSuiteA-HR Management</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-GadgetsGallery-03102021" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for GadgetsGallery-03102021</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_GadgetsGallery-03102021');
+function tableData_GadgetsGallery-03102021() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['GadgetsGallery-03102021']= { tableData: data, tableDiv: 'times-div-GadgetsGallery-03102021'}
+return data;
+}
+              </script>
+              <div id="times-div-GadgetsGallery-03102021">
+              </div> <!-- times-div-GadgetsGallery-03102021 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestSuiteB-Payroll_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestSuiteB-Payroll Management</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestSuiteB-Payroll_Management');
+function tableData_TestSuiteB-Payroll_Management() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testSearchProduct')
+data.setCell(0, 2, 'unicodeTech.TestSuiteB.SearchProduct')
+data.setCell(0, 3, 6709);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSearchProduct')
+data.setCell(1, 2, 'unicodeTech.TestSuiteB.SearchProduct')
+data.setCell(1, 3, 6625);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSearchProduct')
+data.setCell(2, 2, 'unicodeTech.TestSuiteB.SearchProduct')
+data.setCell(2, 3, 6388);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSearchProduct')
+data.setCell(3, 2, 'unicodeTech.TestSuiteB.SearchProduct')
+data.setCell(3, 3, 6270);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSelectSpecificProduct')
+data.setCell(4, 2, 'unicodeTech.TestSuiteB.SelectSpecificProduct')
+data.setCell(4, 3, 5650);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testSearchProduct')
+data.setCell(5, 2, 'unicodeTech.TestSuiteB.SearchProduct')
+data.setCell(5, 3, 5203);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testNewProductLinks')
+data.setCell(6, 2, 'unicodeTech.TestSuiteB.NewProductLinks')
+data.setCell(6, 3, 3085);
+window.suiteTableData['TestSuiteB-Payroll_Management']= { tableData: data, tableDiv: 'times-div-TestSuiteB-Payroll_Management'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
+              <div id="times-div-TestSuiteB-Payroll_Management">
+              </div> <!-- times-div-TestSuiteB-Payroll_Management -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestSuiteA-HR_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestSuiteA-HR Management</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestSuiteA-HR_Management');
+function tableData_TestSuiteA-HR_Management() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testBestsellerLinks')
+data.setCell(0, 2, 'unicodeTech.TestSuiteA.BestsellerLinks')
+data.setCell(0, 3, 104371);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testValidateUser')
+data.setCell(1, 2, 'unicodeTech.TestSuiteA.ValidateUser')
+data.setCell(1, 3, 19826);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testValidateUser')
+data.setCell(2, 2, 'unicodeTech.TestSuiteA.ValidateUser')
+data.setCell(2, 3, 17811);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testValidateUser')
+data.setCell(3, 2, 'unicodeTech.TestSuiteA.ValidateUser')
+data.setCell(3, 3, 17012);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testValidateUser')
+data.setCell(4, 2, 'unicodeTech.TestSuiteA.ValidateUser')
+data.setCell(4, 3, 14389);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testValidateUser')
+data.setCell(5, 2, 'unicodeTech.TestSuiteA.ValidateUser')
+data.setCell(5, 3, 14262);
+window.suiteTableData['TestSuiteA-HR_Management']= { tableData: data, tableDiv: 'times-div-TestSuiteA-HR_Management'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-TestSuiteA-HR_Management">
+              </div> <!-- times-div-TestSuiteA-HR_Management -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-GadgetsGallery-03102021" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for GadgetsGallery-03102021</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestSuiteB-Payroll_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestSuiteB-Payroll Management</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestSuiteA-HR_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestSuiteA-HR Management</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-GadgetsGallery-03102021" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestSuiteB-Payroll_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestSuiteA-HR_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-GadgetsGallery-03102021" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">unicodeTech.TestSuiteA.ValidateUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testValidateUser(demo@unicodetechnologies.in, unicode)</span>
+                <span class="method-start">36140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testValidateUser(, unicode)</span>
+                <span class="method-start">55966 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testValidateUser(demo1@unicodetechnologies.in, )</span>
+                <span class="method-start">70355 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidateUser(demo1@unicodetechnologies.in, unicode1)</span>
+                <span class="method-start">84617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidateUser(demo2@unicodetechnologies.in, unicode2)</span>
+                <span class="method-start">102428 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">unicodeTech.TestSuiteA.BestsellerLinks</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">119844 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testBestsellerLinks</span>
+                <span class="method-start">119850 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">unicodeTech.TestSuiteB.SearchProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">224276 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testSearchProduct(Samsung)</span>
+                <span class="method-start">224290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchProduct(sony)</span>
+                <span class="method-start">230678 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchProduct()</span>
+                <span class="method-start">236948 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchProduct(iphone)</span>
+                <span class="method-start">243657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchProduct(Smartwatches)</span>
+                <span class="method-start">250282 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">unicodeTech.TestSuiteB.NewProductLinks</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">255672 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testNewProductLinks</span>
+                <span class="method-start">255676 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">unicodeTech.TestSuiteB.SelectSpecificProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">258794 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testSelectSpecificProduct</span>
+                <span class="method-start">258797 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestSuiteB-Payroll_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">unicodeTech.TestSuiteA.ValidateUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testValidateUser(demo@unicodetechnologies.in, unicode)</span>
+                <span class="method-start">36140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testValidateUser(, unicode)</span>
+                <span class="method-start">55966 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testValidateUser(demo1@unicodetechnologies.in, )</span>
+                <span class="method-start">70355 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidateUser(demo1@unicodetechnologies.in, unicode1)</span>
+                <span class="method-start">84617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidateUser(demo2@unicodetechnologies.in, unicode2)</span>
+                <span class="method-start">102428 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">unicodeTech.TestSuiteA.BestsellerLinks</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">119844 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testBestsellerLinks</span>
+                <span class="method-start">119850 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">unicodeTech.TestSuiteB.SearchProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">224276 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testSearchProduct(Samsung)</span>
+                <span class="method-start">224290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchProduct(sony)</span>
+                <span class="method-start">230678 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchProduct()</span>
+                <span class="method-start">236948 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchProduct(iphone)</span>
+                <span class="method-start">243657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchProduct(Smartwatches)</span>
+                <span class="method-start">250282 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">unicodeTech.TestSuiteB.NewProductLinks</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">255672 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testNewProductLinks</span>
+                <span class="method-start">255676 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">unicodeTech.TestSuiteB.SelectSpecificProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">258794 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testSelectSpecificProduct</span>
+                <span class="method-start">258797 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestSuiteA-HR_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">unicodeTech.TestSuiteA.ValidateUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testValidateUser(demo@unicodetechnologies.in, unicode)</span>
+                <span class="method-start">36140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testValidateUser(, unicode)</span>
+                <span class="method-start">55966 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testValidateUser(demo1@unicodetechnologies.in, )</span>
+                <span class="method-start">70355 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidateUser(demo1@unicodetechnologies.in, unicode1)</span>
+                <span class="method-start">84617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidateUser(demo2@unicodetechnologies.in, unicode2)</span>
+                <span class="method-start">102428 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">unicodeTech.TestSuiteA.BestsellerLinks</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">119844 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testBestsellerLinks</span>
+                <span class="method-start">119850 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">unicodeTech.TestSuiteB.SearchProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">224276 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testSearchProduct(Samsung)</span>
+                <span class="method-start">224290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchProduct(sony)</span>
+                <span class="method-start">230678 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchProduct()</span>
+                <span class="method-start">236948 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchProduct(iphone)</span>
+                <span class="method-start">243657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchProduct(Smartwatches)</span>
+                <span class="method-start">250282 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">unicodeTech.TestSuiteB.NewProductLinks</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">255672 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testNewProductLinks</span>
+                <span class="method-start">255676 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">unicodeTech.TestSuiteB.SelectSpecificProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">258794 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testSelectSpecificProduct</span>
+                <span class="method-start">258797 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<suite name="TestSuiteB-Payroll Management">
+    <test name = "SearchProduct Test">
+        <classes>
+            <class name="unicodeTech.TestSuiteB.SearchProduct"></class>
+        </classes>
+    </test>
+    
+    <test name = "NewProductLinks Test">
+        <classes>
+            <class name="unicodeTech.TestSuiteB.NewProductLinks"></class>
+        </classes>
+    </test>
+    
+    <test name = "SelectSpecificProduct Test">
+        <classes>
+            <class name="unicodeTech.TestSuiteB.SelectSpecificProduct"></class>
+        </classes>
+    </test>
+</suite>

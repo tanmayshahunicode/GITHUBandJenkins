@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuiteA-HR Management]">
+  <test name="ValidateUser Test(failed)">
+    <classes>
+      <class name="unicodeTech.TestSuiteA.BestsellerLinks">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- unicodeTech.TestSuiteA.BestsellerLinks -->
+      <class name="unicodeTech.TestSuiteA.ValidateUser">
+        <methods>
+          <include name="testValidateUser" invocation-numbers="0 1 2"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- unicodeTech.TestSuiteA.ValidateUser -->
+    </classes>
+  </test> <!-- ValidateUser Test(failed) -->
+</suite> <!-- Failed suite [TestSuiteA-HR Management] -->

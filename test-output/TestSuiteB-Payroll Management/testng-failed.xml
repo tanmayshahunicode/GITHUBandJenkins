@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuiteB-Payroll Management]">
+  <test name="SearchProduct Test(failed)">
+    <classes>
+      <class name="unicodeTech.TestSuiteB.SearchProduct">
+        <methods>
+          <include name="testSearchProduct" invocation-numbers="0 1 2 3 4"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- unicodeTech.TestSuiteB.SearchProduct -->
+      <class name="unicodeTech.TestSuiteB.NewProductLinks">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- unicodeTech.TestSuiteB.NewProductLinks -->
+      <class name="unicodeTech.TestSuiteB.SelectSpecificProduct">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- unicodeTech.TestSuiteB.SelectSpecificProduct -->
+    </classes>
+  </test> <!-- SearchProduct Test(failed) -->
+  <test name="NewProductLinks Test(failed)">
+    <classes>
+      <class name="unicodeTech.TestSuiteB.SearchProduct">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- unicodeTech.TestSuiteB.SearchProduct -->
+      <class name="unicodeTech.TestSuiteB.NewProductLinks">
+        <methods>
+          <include name="testNewProductLinks"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- unicodeTech.TestSuiteB.NewProductLinks -->
+      <class name="unicodeTech.TestSuiteB.SelectSpecificProduct">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- unicodeTech.TestSuiteB.SelectSpecificProduct -->
+    </classes>
+  </test> <!-- NewProductLinks Test(failed) -->
+  <test name="SelectSpecificProduct Test(failed)">
+    <classes>
+      <class name="unicodeTech.TestSuiteB.SearchProduct">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- unicodeTech.TestSuiteB.SearchProduct -->
+      <class name="unicodeTech.TestSuiteB.NewProductLinks">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- unicodeTech.TestSuiteB.NewProductLinks -->
+      <class name="unicodeTech.TestSuiteB.SelectSpecificProduct">
+        <methods>
+          <include name="setup"/>
+          <include name="testSelectSpecificProduct"/>
+        </methods>
+      </class> <!-- unicodeTech.TestSuiteB.SelectSpecificProduct -->
+    </classes>
+  </test> <!-- SelectSpecificProduct Test(failed) -->
+</suite> <!-- Failed suite [TestSuiteB-Payroll Management] -->
